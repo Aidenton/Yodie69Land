@@ -15,7 +15,7 @@ readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other
   const hasValue = Object.values(data).includes("v2.0.0");
   if (!hasValue)
   {
-    prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/Browncha023/Vengeance/blob/main/README.md");
+    prompt("A new update is available!\");
   }
 });
 
@@ -140,7 +140,7 @@ grey.setAttribute("onclick", "greyscale()")
 grey.setAttribute("class", "obtn")
 grey.innerText = "Toggle Greyscale"
 var gh = document.createElement("button")
-gh.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/gh.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+gh.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://classroom.google.com/h';document.body.appendChild(script);avoclosedevtools()}())")
 gh.setAttribute("class", "obtn")
 gh.innerText = "Game Hub"
 var tc = document.createElement("button")
